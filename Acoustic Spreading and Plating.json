@@ -1,0 +1,3602 @@
+{
+    "instructions": [{
+            "op": "liquid_handle",
+            "locations": [{
+                    "location": "Pretend Outgrowth Plate/0",
+                    "transports": [{
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "well_top",
+                                        "offset": "1:millimeter"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "-5:microliter",
+                            "mode_params": {
+                                "liquid_class": "air",
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "well_bottom"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "-5:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "-60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "5:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "well_top"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "-1:microliter",
+                            "mode_params": {
+                                "liquid_class": "air",
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "location": "Echo Source/0",
+                    "transports": [{
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "well_top"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "1:microliter",
+                            "mode_params": {
+                                "liquid_class": "air",
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "liquid_surface",
+                                        "offset": "-1:millimeter",
+                                        "detection": {
+                                            "method": "tracked"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "liquid_surface",
+                                        "offset": "-1:millimeter",
+                                        "detection": {
+                                            "method": "tracked"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "well_bottom"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "-60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "-60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "-60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "-60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "-60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "-60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "-60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "-60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "-60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "-60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "60:microliter",
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "mode_params": {
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "well_top"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "volume": "5:microliter",
+                            "mode_params": {
+                                "liquid_class": "air",
+                                "tip_position": {
+                                    "position_z": {
+                                        "reference": "preceding_position"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "shape": {
+                "rows": 8,
+                "columns": 12,
+                "format": "SBS96"
+            },
+            "mode": "air_displacement"
+        },
+        {
+            "op": "acoustic_transfer",
+            "groups": [{
+                "transfer": [{
+                        "from": "Echo Source/0",
+                        "to": "1 Destination Plate LB Agar/24",
+                        "volume": "25:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/0",
+                        "to": "1 Destination Plate LB Agar/72",
+                        "volume": "50:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/0",
+                        "to": "1 Destination Plate LB Agar/120",
+                        "volume": "75:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/0",
+                        "to": "1 Destination Plate LB Agar/168",
+                        "volume": "100:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/0",
+                        "to": "1 Destination Plate LB Agar/26",
+                        "volume": "125:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/0",
+                        "to": "1 Destination Plate LB Agar/74",
+                        "volume": "150:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/0",
+                        "to": "1 Destination Plate LB Agar/122",
+                        "volume": "175:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/0",
+                        "to": "1 Destination Plate LB Agar/170",
+                        "volume": "200:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/0",
+                        "to": "1 Destination Plate LB Agar/28",
+                        "volume": "300:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/0",
+                        "to": "1 Destination Plate LB Agar/76",
+                        "volume": "400:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/0",
+                        "to": "1 Destination Plate LB Agar/124",
+                        "volume": "800:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/0",
+                        "to": "1 Destination Plate LB Agar/172",
+                        "volume": "1600:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/2",
+                        "to": "1 Destination Plate LB Agar/31",
+                        "volume": "25:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/2",
+                        "to": "1 Destination Plate LB Agar/79",
+                        "volume": "50:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/2",
+                        "to": "1 Destination Plate LB Agar/127",
+                        "volume": "75:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/2",
+                        "to": "1 Destination Plate LB Agar/175",
+                        "volume": "100:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/2",
+                        "to": "1 Destination Plate LB Agar/33",
+                        "volume": "125:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/2",
+                        "to": "1 Destination Plate LB Agar/81",
+                        "volume": "150:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/2",
+                        "to": "1 Destination Plate LB Agar/129",
+                        "volume": "175:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/2",
+                        "to": "1 Destination Plate LB Agar/177",
+                        "volume": "200:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/2",
+                        "to": "1 Destination Plate LB Agar/35",
+                        "volume": "300:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/2",
+                        "to": "1 Destination Plate LB Agar/83",
+                        "volume": "400:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/2",
+                        "to": "1 Destination Plate LB Agar/131",
+                        "volume": "800:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/2",
+                        "to": "1 Destination Plate LB Agar/179",
+                        "volume": "1600:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/48",
+                        "to": "1 Destination Plate LB Agar/37",
+                        "volume": "25:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/48",
+                        "to": "1 Destination Plate LB Agar/85",
+                        "volume": "50:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/48",
+                        "to": "1 Destination Plate LB Agar/133",
+                        "volume": "75:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/48",
+                        "to": "1 Destination Plate LB Agar/181",
+                        "volume": "100:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/48",
+                        "to": "1 Destination Plate LB Agar/39",
+                        "volume": "125:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/48",
+                        "to": "1 Destination Plate LB Agar/87",
+                        "volume": "150:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/48",
+                        "to": "1 Destination Plate LB Agar/135",
+                        "volume": "175:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/48",
+                        "to": "1 Destination Plate LB Agar/183",
+                        "volume": "200:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/48",
+                        "to": "1 Destination Plate LB Agar/41",
+                        "volume": "300:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/48",
+                        "to": "1 Destination Plate LB Agar/89",
+                        "volume": "400:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/48",
+                        "to": "1 Destination Plate LB Agar/137",
+                        "volume": "800:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/48",
+                        "to": "1 Destination Plate LB Agar/185",
+                        "volume": "1600:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/50",
+                        "to": "1 Destination Plate LB Agar/43",
+                        "volume": "25:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/50",
+                        "to": "1 Destination Plate LB Agar/91",
+                        "volume": "50:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/50",
+                        "to": "1 Destination Plate LB Agar/139",
+                        "volume": "75:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/50",
+                        "to": "1 Destination Plate LB Agar/187",
+                        "volume": "100:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/50",
+                        "to": "1 Destination Plate LB Agar/45",
+                        "volume": "125:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/50",
+                        "to": "1 Destination Plate LB Agar/93",
+                        "volume": "150:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/50",
+                        "to": "1 Destination Plate LB Agar/141",
+                        "volume": "175:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/50",
+                        "to": "1 Destination Plate LB Agar/189",
+                        "volume": "200:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/50",
+                        "to": "1 Destination Plate LB Agar/47",
+                        "volume": "300:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/50",
+                        "to": "1 Destination Plate LB Agar/95",
+                        "volume": "400:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/50",
+                        "to": "1 Destination Plate LB Agar/143",
+                        "volume": "800:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/50",
+                        "to": "1 Destination Plate LB Agar/191",
+                        "volume": "1600:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/96",
+                        "to": "1 Destination Plate LB Agar/216",
+                        "volume": "25:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/96",
+                        "to": "1 Destination Plate LB Agar/264",
+                        "volume": "50:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/96",
+                        "to": "1 Destination Plate LB Agar/312",
+                        "volume": "75:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/96",
+                        "to": "1 Destination Plate LB Agar/360",
+                        "volume": "100:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/96",
+                        "to": "1 Destination Plate LB Agar/218",
+                        "volume": "125:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/96",
+                        "to": "1 Destination Plate LB Agar/266",
+                        "volume": "150:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/96",
+                        "to": "1 Destination Plate LB Agar/314",
+                        "volume": "175:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/96",
+                        "to": "1 Destination Plate LB Agar/362",
+                        "volume": "200:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/96",
+                        "to": "1 Destination Plate LB Agar/220",
+                        "volume": "300:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/96",
+                        "to": "1 Destination Plate LB Agar/268",
+                        "volume": "400:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/96",
+                        "to": "1 Destination Plate LB Agar/316",
+                        "volume": "800:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/96",
+                        "to": "1 Destination Plate LB Agar/364",
+                        "volume": "1600:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/98",
+                        "to": "1 Destination Plate LB Agar/223",
+                        "volume": "25:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/98",
+                        "to": "1 Destination Plate LB Agar/271",
+                        "volume": "50:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/98",
+                        "to": "1 Destination Plate LB Agar/319",
+                        "volume": "75:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/98",
+                        "to": "1 Destination Plate LB Agar/367",
+                        "volume": "100:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/98",
+                        "to": "1 Destination Plate LB Agar/225",
+                        "volume": "125:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/98",
+                        "to": "1 Destination Plate LB Agar/273",
+                        "volume": "150:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/98",
+                        "to": "1 Destination Plate LB Agar/321",
+                        "volume": "175:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/98",
+                        "to": "1 Destination Plate LB Agar/369",
+                        "volume": "200:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/98",
+                        "to": "1 Destination Plate LB Agar/227",
+                        "volume": "300:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/98",
+                        "to": "1 Destination Plate LB Agar/275",
+                        "volume": "400:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/98",
+                        "to": "1 Destination Plate LB Agar/323",
+                        "volume": "800:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/98",
+                        "to": "1 Destination Plate LB Agar/371",
+                        "volume": "1600:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/144",
+                        "to": "1 Destination Plate LB Agar/229",
+                        "volume": "25:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/144",
+                        "to": "1 Destination Plate LB Agar/277",
+                        "volume": "50:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/144",
+                        "to": "1 Destination Plate LB Agar/325",
+                        "volume": "75:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/144",
+                        "to": "1 Destination Plate LB Agar/373",
+                        "volume": "100:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/144",
+                        "to": "1 Destination Plate LB Agar/231",
+                        "volume": "125:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/144",
+                        "to": "1 Destination Plate LB Agar/279",
+                        "volume": "150:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/144",
+                        "to": "1 Destination Plate LB Agar/327",
+                        "volume": "175:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/144",
+                        "to": "1 Destination Plate LB Agar/375",
+                        "volume": "200:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/144",
+                        "to": "1 Destination Plate LB Agar/233",
+                        "volume": "300:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/144",
+                        "to": "1 Destination Plate LB Agar/281",
+                        "volume": "400:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/144",
+                        "to": "1 Destination Plate LB Agar/329",
+                        "volume": "800:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/144",
+                        "to": "1 Destination Plate LB Agar/377",
+                        "volume": "1600:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/146",
+                        "to": "1 Destination Plate LB Agar/235",
+                        "volume": "25:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/146",
+                        "to": "1 Destination Plate LB Agar/283",
+                        "volume": "50:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/146",
+                        "to": "1 Destination Plate LB Agar/331",
+                        "volume": "75:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/146",
+                        "to": "1 Destination Plate LB Agar/379",
+                        "volume": "100:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/146",
+                        "to": "1 Destination Plate LB Agar/237",
+                        "volume": "125:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/146",
+                        "to": "1 Destination Plate LB Agar/285",
+                        "volume": "150:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/146",
+                        "to": "1 Destination Plate LB Agar/333",
+                        "volume": "175:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/146",
+                        "to": "1 Destination Plate LB Agar/381",
+                        "volume": "200:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/146",
+                        "to": "1 Destination Plate LB Agar/239",
+                        "volume": "300:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/146",
+                        "to": "1 Destination Plate LB Agar/287",
+                        "volume": "400:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/146",
+                        "to": "1 Destination Plate LB Agar/335",
+                        "volume": "800:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/146",
+                        "to": "1 Destination Plate LB Agar/383",
+                        "volume": "1600:nanoliter"
+                    }
+                ]
+            }],
+            "droplet_size": "25:nanoliter",
+            "x_source_liquid_class": "AQ_BP"
+        },
+        {
+            "op": "acoustic_transfer",
+            "groups": [{
+                "transfer": [{
+                        "from": "Echo Source/192",
+                        "to": "2 Destination Plate LB Agar/24",
+                        "volume": "25:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/192",
+                        "to": "2 Destination Plate LB Agar/72",
+                        "volume": "50:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/192",
+                        "to": "2 Destination Plate LB Agar/120",
+                        "volume": "75:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/192",
+                        "to": "2 Destination Plate LB Agar/168",
+                        "volume": "100:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/192",
+                        "to": "2 Destination Plate LB Agar/26",
+                        "volume": "125:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/192",
+                        "to": "2 Destination Plate LB Agar/74",
+                        "volume": "150:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/192",
+                        "to": "2 Destination Plate LB Agar/122",
+                        "volume": "175:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/192",
+                        "to": "2 Destination Plate LB Agar/170",
+                        "volume": "200:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/192",
+                        "to": "2 Destination Plate LB Agar/28",
+                        "volume": "300:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/192",
+                        "to": "2 Destination Plate LB Agar/76",
+                        "volume": "400:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/192",
+                        "to": "2 Destination Plate LB Agar/124",
+                        "volume": "800:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/192",
+                        "to": "2 Destination Plate LB Agar/172",
+                        "volume": "1600:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/194",
+                        "to": "2 Destination Plate LB Agar/31",
+                        "volume": "25:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/194",
+                        "to": "2 Destination Plate LB Agar/79",
+                        "volume": "50:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/194",
+                        "to": "2 Destination Plate LB Agar/127",
+                        "volume": "75:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/194",
+                        "to": "2 Destination Plate LB Agar/175",
+                        "volume": "100:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/194",
+                        "to": "2 Destination Plate LB Agar/33",
+                        "volume": "125:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/194",
+                        "to": "2 Destination Plate LB Agar/81",
+                        "volume": "150:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/194",
+                        "to": "2 Destination Plate LB Agar/129",
+                        "volume": "175:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/194",
+                        "to": "2 Destination Plate LB Agar/177",
+                        "volume": "200:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/194",
+                        "to": "2 Destination Plate LB Agar/35",
+                        "volume": "300:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/194",
+                        "to": "2 Destination Plate LB Agar/83",
+                        "volume": "400:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/194",
+                        "to": "2 Destination Plate LB Agar/131",
+                        "volume": "800:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/194",
+                        "to": "2 Destination Plate LB Agar/179",
+                        "volume": "1600:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/240",
+                        "to": "2 Destination Plate LB Agar/37",
+                        "volume": "25:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/240",
+                        "to": "2 Destination Plate LB Agar/85",
+                        "volume": "50:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/240",
+                        "to": "2 Destination Plate LB Agar/133",
+                        "volume": "75:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/240",
+                        "to": "2 Destination Plate LB Agar/181",
+                        "volume": "100:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/240",
+                        "to": "2 Destination Plate LB Agar/39",
+                        "volume": "125:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/240",
+                        "to": "2 Destination Plate LB Agar/87",
+                        "volume": "150:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/240",
+                        "to": "2 Destination Plate LB Agar/135",
+                        "volume": "175:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/240",
+                        "to": "2 Destination Plate LB Agar/183",
+                        "volume": "200:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/240",
+                        "to": "2 Destination Plate LB Agar/41",
+                        "volume": "300:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/240",
+                        "to": "2 Destination Plate LB Agar/89",
+                        "volume": "400:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/240",
+                        "to": "2 Destination Plate LB Agar/137",
+                        "volume": "800:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/240",
+                        "to": "2 Destination Plate LB Agar/185",
+                        "volume": "1600:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/242",
+                        "to": "2 Destination Plate LB Agar/43",
+                        "volume": "25:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/242",
+                        "to": "2 Destination Plate LB Agar/91",
+                        "volume": "50:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/242",
+                        "to": "2 Destination Plate LB Agar/139",
+                        "volume": "75:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/242",
+                        "to": "2 Destination Plate LB Agar/187",
+                        "volume": "100:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/242",
+                        "to": "2 Destination Plate LB Agar/45",
+                        "volume": "125:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/242",
+                        "to": "2 Destination Plate LB Agar/93",
+                        "volume": "150:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/242",
+                        "to": "2 Destination Plate LB Agar/141",
+                        "volume": "175:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/242",
+                        "to": "2 Destination Plate LB Agar/189",
+                        "volume": "200:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/242",
+                        "to": "2 Destination Plate LB Agar/47",
+                        "volume": "300:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/242",
+                        "to": "2 Destination Plate LB Agar/95",
+                        "volume": "400:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/242",
+                        "to": "2 Destination Plate LB Agar/143",
+                        "volume": "800:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/242",
+                        "to": "2 Destination Plate LB Agar/191",
+                        "volume": "1600:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/288",
+                        "to": "2 Destination Plate LB Agar/216",
+                        "volume": "25:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/288",
+                        "to": "2 Destination Plate LB Agar/264",
+                        "volume": "50:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/288",
+                        "to": "2 Destination Plate LB Agar/312",
+                        "volume": "75:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/288",
+                        "to": "2 Destination Plate LB Agar/360",
+                        "volume": "100:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/288",
+                        "to": "2 Destination Plate LB Agar/218",
+                        "volume": "125:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/288",
+                        "to": "2 Destination Plate LB Agar/266",
+                        "volume": "150:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/288",
+                        "to": "2 Destination Plate LB Agar/314",
+                        "volume": "175:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/288",
+                        "to": "2 Destination Plate LB Agar/362",
+                        "volume": "200:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/288",
+                        "to": "2 Destination Plate LB Agar/220",
+                        "volume": "300:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/288",
+                        "to": "2 Destination Plate LB Agar/268",
+                        "volume": "400:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/288",
+                        "to": "2 Destination Plate LB Agar/316",
+                        "volume": "800:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/288",
+                        "to": "2 Destination Plate LB Agar/364",
+                        "volume": "1600:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/290",
+                        "to": "2 Destination Plate LB Agar/223",
+                        "volume": "25:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/290",
+                        "to": "2 Destination Plate LB Agar/271",
+                        "volume": "50:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/290",
+                        "to": "2 Destination Plate LB Agar/319",
+                        "volume": "75:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/290",
+                        "to": "2 Destination Plate LB Agar/367",
+                        "volume": "100:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/290",
+                        "to": "2 Destination Plate LB Agar/225",
+                        "volume": "125:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/290",
+                        "to": "2 Destination Plate LB Agar/273",
+                        "volume": "150:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/290",
+                        "to": "2 Destination Plate LB Agar/321",
+                        "volume": "175:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/290",
+                        "to": "2 Destination Plate LB Agar/369",
+                        "volume": "200:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/290",
+                        "to": "2 Destination Plate LB Agar/227",
+                        "volume": "300:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/290",
+                        "to": "2 Destination Plate LB Agar/275",
+                        "volume": "400:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/290",
+                        "to": "2 Destination Plate LB Agar/323",
+                        "volume": "800:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/290",
+                        "to": "2 Destination Plate LB Agar/371",
+                        "volume": "1600:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/336",
+                        "to": "2 Destination Plate LB Agar/229",
+                        "volume": "25:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/336",
+                        "to": "2 Destination Plate LB Agar/277",
+                        "volume": "50:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/336",
+                        "to": "2 Destination Plate LB Agar/325",
+                        "volume": "75:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/336",
+                        "to": "2 Destination Plate LB Agar/373",
+                        "volume": "100:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/336",
+                        "to": "2 Destination Plate LB Agar/231",
+                        "volume": "125:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/336",
+                        "to": "2 Destination Plate LB Agar/279",
+                        "volume": "150:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/336",
+                        "to": "2 Destination Plate LB Agar/327",
+                        "volume": "175:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/336",
+                        "to": "2 Destination Plate LB Agar/375",
+                        "volume": "200:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/336",
+                        "to": "2 Destination Plate LB Agar/233",
+                        "volume": "300:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/336",
+                        "to": "2 Destination Plate LB Agar/281",
+                        "volume": "400:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/336",
+                        "to": "2 Destination Plate LB Agar/329",
+                        "volume": "800:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/336",
+                        "to": "2 Destination Plate LB Agar/377",
+                        "volume": "1600:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/338",
+                        "to": "2 Destination Plate LB Agar/235",
+                        "volume": "25:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/338",
+                        "to": "2 Destination Plate LB Agar/283",
+                        "volume": "50:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/338",
+                        "to": "2 Destination Plate LB Agar/331",
+                        "volume": "75:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/338",
+                        "to": "2 Destination Plate LB Agar/379",
+                        "volume": "100:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/338",
+                        "to": "2 Destination Plate LB Agar/237",
+                        "volume": "125:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/338",
+                        "to": "2 Destination Plate LB Agar/285",
+                        "volume": "150:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/338",
+                        "to": "2 Destination Plate LB Agar/333",
+                        "volume": "175:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/338",
+                        "to": "2 Destination Plate LB Agar/381",
+                        "volume": "200:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/338",
+                        "to": "2 Destination Plate LB Agar/239",
+                        "volume": "300:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/338",
+                        "to": "2 Destination Plate LB Agar/287",
+                        "volume": "400:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/338",
+                        "to": "2 Destination Plate LB Agar/335",
+                        "volume": "800:nanoliter"
+                    },
+                    {
+                        "from": "Echo Source/338",
+                        "to": "2 Destination Plate LB Agar/383",
+                        "volume": "1600:nanoliter"
+                    }
+                ]
+            }],
+            "droplet_size": "25:nanoliter",
+            "x_source_liquid_class": "AQ_BP"
+        },
+        {
+            "op": "cover",
+            "object": "1 Destination Plate LB Agar",
+            "lid": "universal"
+        },
+        {
+            "op": "incubate",
+            "object": "1 Destination Plate LB Agar",
+            "where": "warm_37",
+            "duration": "16:hour",
+            "shaking": false,
+            "co2_percent": 0
+        },
+        {
+            "op": "cover",
+            "object": "2 Destination Plate LB Agar",
+            "lid": "universal"
+        },
+        {
+            "op": "incubate",
+            "object": "2 Destination Plate LB Agar",
+            "where": "warm_37",
+            "duration": "16:hour",
+            "shaking": false,
+            "co2_percent": 0
+        },
+        {
+            "op": "seal",
+            "object": "Pretend Outgrowth Plate",
+            "type": "ultra-clear"
+        },
+        {
+            "op": "seal",
+            "object": "Echo Source",
+            "type": "foil"
+        }
+    ],
+    "outs": {
+        "Pretend Outgrowth Plate": {
+            "0": {
+                "properties": {
+                    "target_construct_name": "Construct_1",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "1": {
+                "properties": {
+                    "target_construct_name": "Construct_9",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "2": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "3": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "4": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "5": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "6": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "7": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "8": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "9": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "10": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "11": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "12": {
+                "properties": {
+                    "target_construct_name": "Construct_2",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "13": {
+                "properties": {
+                    "target_construct_name": "Construct_10",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "14": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "15": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "16": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "17": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "18": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "19": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "20": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "21": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "22": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "23": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "24": {
+                "properties": {
+                    "target_construct_name": "Construct_3",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "25": {
+                "properties": {
+                    "target_construct_name": "Construct_11",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "26": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "27": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "28": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "29": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "30": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "31": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "32": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "33": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "34": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "35": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "36": {
+                "properties": {
+                    "target_construct_name": "Construct_4",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "37": {
+                "properties": {
+                    "target_construct_name": "Construct_12",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "38": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "39": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "40": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "41": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "42": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "43": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "44": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "45": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "46": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "47": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "48": {
+                "properties": {
+                    "target_construct_name": "Construct_5",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "49": {
+                "properties": {
+                    "target_construct_name": "Construct_13",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "50": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "51": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "52": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "53": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "54": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "55": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "56": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "57": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "58": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "59": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "60": {
+                "properties": {
+                    "target_construct_name": "Construct_6",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "61": {
+                "properties": {
+                    "target_construct_name": "Construct_14",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "62": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "63": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "64": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "65": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "66": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "67": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "68": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "69": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "70": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "71": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "72": {
+                "properties": {
+                    "target_construct_name": "Construct_7",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "73": {
+                "properties": {
+                    "target_construct_name": "Construct_15",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "74": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "75": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "76": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "77": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "78": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "79": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "80": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "81": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "82": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "83": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "84": {
+                "properties": {
+                    "target_construct_name": "Construct_8",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "85": {
+                "properties": {
+                    "target_construct_name": "Construct_16",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "86": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "87": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "88": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "89": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "90": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "91": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "92": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "93": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "94": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "95": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "properties": {
+                "construct_plate_quadrant": "a1"
+            }
+        },
+        "Echo Source": {
+            "0": {
+                "properties": {
+                    "target_construct_name": "Construct_1",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "2": {
+                "properties": {
+                    "target_construct_name": "Construct_9",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "4": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "6": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "8": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "10": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "12": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "14": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "16": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "18": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "20": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "22": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "48": {
+                "properties": {
+                    "target_construct_name": "Construct_2",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "50": {
+                "properties": {
+                    "target_construct_name": "Construct_10",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "52": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "54": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "56": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "58": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "60": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "62": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "64": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "66": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "68": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "70": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "96": {
+                "properties": {
+                    "target_construct_name": "Construct_3",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "98": {
+                "properties": {
+                    "target_construct_name": "Construct_11",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "100": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "102": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "104": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "106": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "108": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "110": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "112": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "114": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "116": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "118": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "144": {
+                "properties": {
+                    "target_construct_name": "Construct_4",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "146": {
+                "properties": {
+                    "target_construct_name": "Construct_12",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "148": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "150": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "152": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "154": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "156": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "158": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "160": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "162": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "164": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "166": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "192": {
+                "properties": {
+                    "target_construct_name": "Construct_5",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "194": {
+                "properties": {
+                    "target_construct_name": "Construct_13",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "196": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "198": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "200": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "202": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "204": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "206": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "208": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "210": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "212": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "214": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "240": {
+                "properties": {
+                    "target_construct_name": "Construct_6",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "242": {
+                "properties": {
+                    "target_construct_name": "Construct_14",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "244": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "246": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "248": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "250": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "252": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "254": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "256": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "258": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "260": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "262": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "288": {
+                "properties": {
+                    "target_construct_name": "Construct_7",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "290": {
+                "properties": {
+                    "target_construct_name": "Construct_15",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "292": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "294": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "296": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "298": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "300": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "302": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "304": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "306": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "308": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "310": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "336": {
+                "properties": {
+                    "target_construct_name": "Construct_8",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "338": {
+                "properties": {
+                    "target_construct_name": "Construct_16",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "340": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "342": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "344": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "346": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "348": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "350": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "352": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "354": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "356": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "358": {
+                "properties": {
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            }
+        },
+        "1 Destination Plate LB Agar": {
+            "24": {
+                "properties": {
+                    "target_construct_name": "Construct_1",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "26": {
+                "properties": {
+                    "target_construct_name": "Construct_1",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "28": {
+                "properties": {
+                    "target_construct_name": "Construct_1",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "31": {
+                "properties": {
+                    "target_construct_name": "Construct_9",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "33": {
+                "properties": {
+                    "target_construct_name": "Construct_9",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "35": {
+                "properties": {
+                    "target_construct_name": "Construct_9",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "37": {
+                "properties": {
+                    "target_construct_name": "Construct_2",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "39": {
+                "properties": {
+                    "target_construct_name": "Construct_2",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "41": {
+                "properties": {
+                    "target_construct_name": "Construct_2",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "43": {
+                "properties": {
+                    "target_construct_name": "Construct_10",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "45": {
+                "properties": {
+                    "target_construct_name": "Construct_10",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "47": {
+                "properties": {
+                    "target_construct_name": "Construct_10",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "72": {
+                "properties": {
+                    "target_construct_name": "Construct_1",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "74": {
+                "properties": {
+                    "target_construct_name": "Construct_1",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "76": {
+                "properties": {
+                    "target_construct_name": "Construct_1",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "79": {
+                "properties": {
+                    "target_construct_name": "Construct_9",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "81": {
+                "properties": {
+                    "target_construct_name": "Construct_9",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "83": {
+                "properties": {
+                    "target_construct_name": "Construct_9",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "85": {
+                "properties": {
+                    "target_construct_name": "Construct_2",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "87": {
+                "properties": {
+                    "target_construct_name": "Construct_2",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "89": {
+                "properties": {
+                    "target_construct_name": "Construct_2",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "91": {
+                "properties": {
+                    "target_construct_name": "Construct_10",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "93": {
+                "properties": {
+                    "target_construct_name": "Construct_10",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "95": {
+                "properties": {
+                    "target_construct_name": "Construct_10",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "120": {
+                "properties": {
+                    "target_construct_name": "Construct_1",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "122": {
+                "properties": {
+                    "target_construct_name": "Construct_1",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "124": {
+                "properties": {
+                    "target_construct_name": "Construct_1",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "127": {
+                "properties": {
+                    "target_construct_name": "Construct_9",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "129": {
+                "properties": {
+                    "target_construct_name": "Construct_9",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "131": {
+                "properties": {
+                    "target_construct_name": "Construct_9",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "133": {
+                "properties": {
+                    "target_construct_name": "Construct_2",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "135": {
+                "properties": {
+                    "target_construct_name": "Construct_2",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "137": {
+                "properties": {
+                    "target_construct_name": "Construct_2",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "139": {
+                "properties": {
+                    "target_construct_name": "Construct_10",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "141": {
+                "properties": {
+                    "target_construct_name": "Construct_10",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "143": {
+                "properties": {
+                    "target_construct_name": "Construct_10",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "168": {
+                "properties": {
+                    "target_construct_name": "Construct_1",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "170": {
+                "properties": {
+                    "target_construct_name": "Construct_1",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "172": {
+                "properties": {
+                    "target_construct_name": "Construct_1",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "175": {
+                "properties": {
+                    "target_construct_name": "Construct_9",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "177": {
+                "properties": {
+                    "target_construct_name": "Construct_9",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "179": {
+                "properties": {
+                    "target_construct_name": "Construct_9",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "181": {
+                "properties": {
+                    "target_construct_name": "Construct_2",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "183": {
+                "properties": {
+                    "target_construct_name": "Construct_2",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "185": {
+                "properties": {
+                    "target_construct_name": "Construct_2",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "187": {
+                "properties": {
+                    "target_construct_name": "Construct_10",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "189": {
+                "properties": {
+                    "target_construct_name": "Construct_10",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "191": {
+                "properties": {
+                    "target_construct_name": "Construct_10",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "216": {
+                "properties": {
+                    "target_construct_name": "Construct_3",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "218": {
+                "properties": {
+                    "target_construct_name": "Construct_3",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "220": {
+                "properties": {
+                    "target_construct_name": "Construct_3",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "223": {
+                "properties": {
+                    "target_construct_name": "Construct_11",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "225": {
+                "properties": {
+                    "target_construct_name": "Construct_11",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "227": {
+                "properties": {
+                    "target_construct_name": "Construct_11",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "229": {
+                "properties": {
+                    "target_construct_name": "Construct_4",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "231": {
+                "properties": {
+                    "target_construct_name": "Construct_4",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "233": {
+                "properties": {
+                    "target_construct_name": "Construct_4",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "235": {
+                "properties": {
+                    "target_construct_name": "Construct_12",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "237": {
+                "properties": {
+                    "target_construct_name": "Construct_12",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "239": {
+                "properties": {
+                    "target_construct_name": "Construct_12",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "264": {
+                "properties": {
+                    "target_construct_name": "Construct_3",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "266": {
+                "properties": {
+                    "target_construct_name": "Construct_3",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "268": {
+                "properties": {
+                    "target_construct_name": "Construct_3",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "271": {
+                "properties": {
+                    "target_construct_name": "Construct_11",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "273": {
+                "properties": {
+                    "target_construct_name": "Construct_11",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "275": {
+                "properties": {
+                    "target_construct_name": "Construct_11",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "277": {
+                "properties": {
+                    "target_construct_name": "Construct_4",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "279": {
+                "properties": {
+                    "target_construct_name": "Construct_4",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "281": {
+                "properties": {
+                    "target_construct_name": "Construct_4",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "283": {
+                "properties": {
+                    "target_construct_name": "Construct_12",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "285": {
+                "properties": {
+                    "target_construct_name": "Construct_12",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "287": {
+                "properties": {
+                    "target_construct_name": "Construct_12",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "312": {
+                "properties": {
+                    "target_construct_name": "Construct_3",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "314": {
+                "properties": {
+                    "target_construct_name": "Construct_3",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "316": {
+                "properties": {
+                    "target_construct_name": "Construct_3",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "319": {
+                "properties": {
+                    "target_construct_name": "Construct_11",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "321": {
+                "properties": {
+                    "target_construct_name": "Construct_11",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "323": {
+                "properties": {
+                    "target_construct_name": "Construct_11",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "325": {
+                "properties": {
+                    "target_construct_name": "Construct_4",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "327": {
+                "properties": {
+                    "target_construct_name": "Construct_4",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "329": {
+                "properties": {
+                    "target_construct_name": "Construct_4",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "331": {
+                "properties": {
+                    "target_construct_name": "Construct_12",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "333": {
+                "properties": {
+                    "target_construct_name": "Construct_12",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "335": {
+                "properties": {
+                    "target_construct_name": "Construct_12",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "360": {
+                "properties": {
+                    "target_construct_name": "Construct_3",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "362": {
+                "properties": {
+                    "target_construct_name": "Construct_3",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "364": {
+                "properties": {
+                    "target_construct_name": "Construct_3",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "367": {
+                "properties": {
+                    "target_construct_name": "Construct_11",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "369": {
+                "properties": {
+                    "target_construct_name": "Construct_11",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "371": {
+                "properties": {
+                    "target_construct_name": "Construct_11",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "373": {
+                "properties": {
+                    "target_construct_name": "Construct_4",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "375": {
+                "properties": {
+                    "target_construct_name": "Construct_4",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "377": {
+                "properties": {
+                    "target_construct_name": "Construct_4",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "379": {
+                "properties": {
+                    "target_construct_name": "Construct_12",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "381": {
+                "properties": {
+                    "target_construct_name": "Construct_12",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "383": {
+                "properties": {
+                    "target_construct_name": "Construct_12",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "properties": {
+                "solid_media_type": "LB Agar"
+            }
+        },
+        "2 Destination Plate LB Agar": {
+            "24": {
+                "properties": {
+                    "target_construct_name": "Construct_5",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "26": {
+                "properties": {
+                    "target_construct_name": "Construct_5",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "28": {
+                "properties": {
+                    "target_construct_name": "Construct_5",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "31": {
+                "properties": {
+                    "target_construct_name": "Construct_13",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "33": {
+                "properties": {
+                    "target_construct_name": "Construct_13",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "35": {
+                "properties": {
+                    "target_construct_name": "Construct_13",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "37": {
+                "properties": {
+                    "target_construct_name": "Construct_6",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "39": {
+                "properties": {
+                    "target_construct_name": "Construct_6",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "41": {
+                "properties": {
+                    "target_construct_name": "Construct_6",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "43": {
+                "properties": {
+                    "target_construct_name": "Construct_14",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "45": {
+                "properties": {
+                    "target_construct_name": "Construct_14",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "47": {
+                "properties": {
+                    "target_construct_name": "Construct_14",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "72": {
+                "properties": {
+                    "target_construct_name": "Construct_5",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "74": {
+                "properties": {
+                    "target_construct_name": "Construct_5",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "76": {
+                "properties": {
+                    "target_construct_name": "Construct_5",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "79": {
+                "properties": {
+                    "target_construct_name": "Construct_13",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "81": {
+                "properties": {
+                    "target_construct_name": "Construct_13",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "83": {
+                "properties": {
+                    "target_construct_name": "Construct_13",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "85": {
+                "properties": {
+                    "target_construct_name": "Construct_6",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "87": {
+                "properties": {
+                    "target_construct_name": "Construct_6",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "89": {
+                "properties": {
+                    "target_construct_name": "Construct_6",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "91": {
+                "properties": {
+                    "target_construct_name": "Construct_14",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "93": {
+                "properties": {
+                    "target_construct_name": "Construct_14",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "95": {
+                "properties": {
+                    "target_construct_name": "Construct_14",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "120": {
+                "properties": {
+                    "target_construct_name": "Construct_5",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "122": {
+                "properties": {
+                    "target_construct_name": "Construct_5",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "124": {
+                "properties": {
+                    "target_construct_name": "Construct_5",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "127": {
+                "properties": {
+                    "target_construct_name": "Construct_13",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "129": {
+                "properties": {
+                    "target_construct_name": "Construct_13",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "131": {
+                "properties": {
+                    "target_construct_name": "Construct_13",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "133": {
+                "properties": {
+                    "target_construct_name": "Construct_6",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "135": {
+                "properties": {
+                    "target_construct_name": "Construct_6",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "137": {
+                "properties": {
+                    "target_construct_name": "Construct_6",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "139": {
+                "properties": {
+                    "target_construct_name": "Construct_14",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "141": {
+                "properties": {
+                    "target_construct_name": "Construct_14",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "143": {
+                "properties": {
+                    "target_construct_name": "Construct_14",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "168": {
+                "properties": {
+                    "target_construct_name": "Construct_5",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "170": {
+                "properties": {
+                    "target_construct_name": "Construct_5",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "172": {
+                "properties": {
+                    "target_construct_name": "Construct_5",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "175": {
+                "properties": {
+                    "target_construct_name": "Construct_13",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "177": {
+                "properties": {
+                    "target_construct_name": "Construct_13",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "179": {
+                "properties": {
+                    "target_construct_name": "Construct_13",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "181": {
+                "properties": {
+                    "target_construct_name": "Construct_6",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "183": {
+                "properties": {
+                    "target_construct_name": "Construct_6",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "185": {
+                "properties": {
+                    "target_construct_name": "Construct_6",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "187": {
+                "properties": {
+                    "target_construct_name": "Construct_14",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "189": {
+                "properties": {
+                    "target_construct_name": "Construct_14",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "191": {
+                "properties": {
+                    "target_construct_name": "Construct_14",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "216": {
+                "properties": {
+                    "target_construct_name": "Construct_7",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "218": {
+                "properties": {
+                    "target_construct_name": "Construct_7",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "220": {
+                "properties": {
+                    "target_construct_name": "Construct_7",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "223": {
+                "properties": {
+                    "target_construct_name": "Construct_15",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "225": {
+                "properties": {
+                    "target_construct_name": "Construct_15",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "227": {
+                "properties": {
+                    "target_construct_name": "Construct_15",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "229": {
+                "properties": {
+                    "target_construct_name": "Construct_8",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "231": {
+                "properties": {
+                    "target_construct_name": "Construct_8",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "233": {
+                "properties": {
+                    "target_construct_name": "Construct_8",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "235": {
+                "properties": {
+                    "target_construct_name": "Construct_16",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "237": {
+                "properties": {
+                    "target_construct_name": "Construct_16",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "239": {
+                "properties": {
+                    "target_construct_name": "Construct_16",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "264": {
+                "properties": {
+                    "target_construct_name": "Construct_7",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "266": {
+                "properties": {
+                    "target_construct_name": "Construct_7",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "268": {
+                "properties": {
+                    "target_construct_name": "Construct_7",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "271": {
+                "properties": {
+                    "target_construct_name": "Construct_15",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "273": {
+                "properties": {
+                    "target_construct_name": "Construct_15",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "275": {
+                "properties": {
+                    "target_construct_name": "Construct_15",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "277": {
+                "properties": {
+                    "target_construct_name": "Construct_8",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "279": {
+                "properties": {
+                    "target_construct_name": "Construct_8",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "281": {
+                "properties": {
+                    "target_construct_name": "Construct_8",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "283": {
+                "properties": {
+                    "target_construct_name": "Construct_16",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "285": {
+                "properties": {
+                    "target_construct_name": "Construct_16",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "287": {
+                "properties": {
+                    "target_construct_name": "Construct_16",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "312": {
+                "properties": {
+                    "target_construct_name": "Construct_7",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "314": {
+                "properties": {
+                    "target_construct_name": "Construct_7",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "316": {
+                "properties": {
+                    "target_construct_name": "Construct_7",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "319": {
+                "properties": {
+                    "target_construct_name": "Construct_15",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "321": {
+                "properties": {
+                    "target_construct_name": "Construct_15",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "323": {
+                "properties": {
+                    "target_construct_name": "Construct_15",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "325": {
+                "properties": {
+                    "target_construct_name": "Construct_8",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "327": {
+                "properties": {
+                    "target_construct_name": "Construct_8",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "329": {
+                "properties": {
+                    "target_construct_name": "Construct_8",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "331": {
+                "properties": {
+                    "target_construct_name": "Construct_16",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "333": {
+                "properties": {
+                    "target_construct_name": "Construct_16",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "335": {
+                "properties": {
+                    "target_construct_name": "Construct_16",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "360": {
+                "properties": {
+                    "target_construct_name": "Construct_7",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "362": {
+                "properties": {
+                    "target_construct_name": "Construct_7",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "364": {
+                "properties": {
+                    "target_construct_name": "Construct_7",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "367": {
+                "properties": {
+                    "target_construct_name": "Construct_15",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "369": {
+                "properties": {
+                    "target_construct_name": "Construct_15",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "371": {
+                "properties": {
+                    "target_construct_name": "Construct_15",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "373": {
+                "properties": {
+                    "target_construct_name": "Construct_8",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "375": {
+                "properties": {
+                    "target_construct_name": "Construct_8",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "377": {
+                "properties": {
+                    "target_construct_name": "Construct_8",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "379": {
+                "properties": {
+                    "target_construct_name": "Construct_16",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "381": {
+                "properties": {
+                    "target_construct_name": "Construct_16",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "383": {
+                "properties": {
+                    "target_construct_name": "Construct_16",
+                    "from_construct_plate": "Pretend Outgrowth Plate"
+                }
+            },
+            "properties": {
+                "solid_media_type": "LB Agar"
+            }
+        }
+    },
+    "refs": {
+        "Pretend Outgrowth Plate": {
+            "id": "ct1ay2cbb57uu9rfqk",
+            "store": {
+                "where": "cold_4"
+            }
+        },
+        "Echo Source": {
+            "new": "384-echo",
+            "store": {
+                "where": "cold_20"
+            }
+        },
+        "1 Destination Plate LB Agar": {
+            "new": "384-virtual-well-1-flat",
+            "store": {
+                "where": "warm_37"
+            }
+        },
+        "2 Destination Plate LB Agar": {
+            "new": "384-virtual-well-1-flat",
+            "store": {
+                "where": "warm_37"
+            }
+        }
+    },
+    "time_constraints": [{
+            "from": {
+                "ref_start": "1 Destination Plate LB Agar"
+            },
+            "to": {
+                "ref_start": "2 Destination Plate LB Agar"
+            },
+            "less_than": "0:second"
+        },
+        {
+            "from": {
+                "ref_start": "1 Destination Plate LB Agar"
+            },
+            "to": {
+                "ref_start": "2 Destination Plate LB Agar"
+            },
+            "more_than": "0:second"
+        }
+    ],
+    "price": [{
+        "description": "Remove pricing",
+        "price_each": 0,
+        "quantity": 0
+    }]
+}
